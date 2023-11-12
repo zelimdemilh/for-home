@@ -18,6 +18,9 @@ export function buildPlugins({ paths, isDev }: BuildOptions): webpack.WebpackPlu
             __IS_DEV__: JSON.stringify(isDev),
         }),
 
-        isDev && (new webpack.HotModuleReplacementPlugin(), new ReactRefreshWebpackPlugin()),
+        isDev && (
+            new webpack.HotModuleReplacementPlugin(),
+            new ReactRefreshWebpackPlugin()
+        ),
     ];
 }

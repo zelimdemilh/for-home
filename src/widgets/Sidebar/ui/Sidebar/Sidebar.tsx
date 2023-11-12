@@ -21,7 +21,13 @@ export const Sidebar:FC<SidebarProps> = (props) => {
     };
 
     return (
-        <div className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [className])}>
+        <div
+            className={classNames(
+                cls.Sidebar,
+                { [cls.collapsed]: collapsed },
+                [className],
+            )}
+        >
             <Button theme={ThemeButton.CLEAR} onClick={onToggle}>
                 {' '}
                 {t('Скрыть')}
