@@ -1,7 +1,0 @@
-{
-    "i18n-ally.localesPaths": [
-        "src/shared/config/i18n",
-        // "public/locales/en",
-        // "public/locales/ru"
-    ]
-}
