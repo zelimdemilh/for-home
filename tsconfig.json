@@ -17,8 +17,8 @@
   },
   "ts-node": {
     "compilerOptions": {
-      "module": "CommonJS",
+      "module": "CommonJS"
 //       "allowArbitraryExtensions": true
     }
-  },
+  }
 }
