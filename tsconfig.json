@@ -20,5 +20,8 @@
       "module": "CommonJS"
 //       "allowArbitraryExtensions": true
     }
-  }
+  },
+//  "include": [
+//    "./config/jest/setupTest.ts"
+//  ]
 }

@@ -22,13 +22,15 @@ export const Sidebar:FC<SidebarProps> = (props) => {
 
     return (
         <div
+            data-testid="sidebar"
             className={classNames(
                 cls.Sidebar,
                 { [cls.collapsed]: collapsed },
                 [className],
             )}
+
         >
-            <Button theme={ThemeButton.CLEAR} onClick={onToggle}>
+            <Button data-testid="button-toggle" theme={ThemeButton.CLEAR} onClick={onToggle}>
                 {' '}
                 {t('Скрыть')}
             </Button>
